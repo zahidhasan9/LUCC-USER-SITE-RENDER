@@ -26,7 +26,7 @@ export default function Counter() {
      // data  = axios.get(`http://localhost:2000/api/global/61dc089f410a853a542123e8`);
 
 
-     axios.get('http://localhost:2000/api/global/61dc26e7f878ca44c022060e')
+     axios.get(`${process.env.REACT_APP_ULR_API}/global/61dc26e7f878ca44c022060e`)
  .then((response) => {
    setuser(response.data);
   

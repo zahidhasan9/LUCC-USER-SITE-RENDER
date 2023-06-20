@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import './css/style.css'
 
 import logo from '../../../../assets/images/LUCC LOGO Main File[168].png';
-import bg_blood from '../../../../assets/images/bg_blood.png';
+// import logo from '../../../../assets/img/logo-2.png';
+
+// leading2.jpg
+import bg_blood from '../../../../assets/img/logo-3.png';
 
 
 import { useDispatch, useSelector } from "react-redux";
